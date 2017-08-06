@@ -1,4 +1,4 @@
-# Vehicle Detection and Counting by SVM with Hog Features (Front and Back Pose)
+# Vehicle Detection, Tracking and Counting
 This project focuses "Vehicle Detection" by [Support Vector Machine(SVM)](http://docs.opencv.org/2.4/doc/tutorials/ml/introduction_to_svm/introduction_to_svm.html) with [Histogram Oriented Gradients(HOG)](http://www.learnopencv.com/histogram-of-oriented-gradients/) features. OpenCV library ([version 3.0](http://opencv.org/opencv-3-0.html)) was used for implementation. 
 
 ## Theory
@@ -18,7 +18,70 @@ In the HOG feature descriptor, the distribution ( histograms ) of directions of 
     **Test Case 2:**
     ![screenshot_8](https://user-images.githubusercontent.com/22610163/29001176-389344ac-7a8a-11e7-9bdb-a76282e2eec3.jpg)
     
+## Installation
+**For Windows Users**
+- Please, use CMAKE;
+Compiling with OpenCV 3.0 and Visual Studio 2013 from CMAKE
+Dependencies:
+- OpenCV 3.x (tested with OpenCV 3.0)
+- GIT (tested with git version 2.7.2.windows.1).
+- CMAKE for Windows (tested with cmake version 3.1.1).
+- Microsoft Visual Studio (tested with VS2013).
+Note: the procedure is similar for OpenCV 3.x and Visual Studio 2015.
 
+Please follow the instructions below:
+
+1. ) Go to Windows console.
+
+2. ) Clone git repository:
+    
+        git clone --recursive https://github.com/ahmetozlu/vehicle_counting_hog_svm.git
+    
+3. ) Go to vehicle_counting_hog_svm/build folder.
+
+4. ) Set your OpenCV PATH:
+
+        set OpenCV_DIR=C:\OpenCV3.0\build
+    
+5. ) Launch CMAKE:
+
+        cmake -DOpenCV_DIR=%OpenCV_DIR% -G "Visual Studio 12 Win32" ..
+    
+6. ) Include OpenCV binaries in the system path:
+
+        set PATH=%PATH%;%OpenCV_DIR%\x86\vc12\bin
+    
+7. ) Open the vehicle_counting_hog_svm.sln file in your Visual Studio and switch to 'DEBUG' mode
+
+8. ) Click on 'ALL_BUILD' project and build!
+
+9. ) If everything goes well, copy vehicle_counting_hog_svm.exe to vehicle_counting_hog_svm/ and run!
+
+**For Linux Users**
+
+For Linux and Mac users, a CMakefile is provided to compile the source code.
+
+- Check out the latest project source code and compile it:
+
+      ~/git clone --recursive https://github.com/andrewssobral/vehicle_counting_hog_svm.git
+      ~/cd vehicle_counting_hog_svm
+      ~/vehicle_counting_hog_svm/cd build
+      ~/vehicle_counting_hog_svm/build/ cmake ..
+      ~/vehicle_counting_hog_svm/build/ make
+
+- Run demo:
+
+      ~/vehicle_counting_hog_svm/run_vehicle_counting_hog_svm.sh
+
+## Citation
+If you use this code for your publications, please cite it as:
+
+    @ONLINE{vdtc,
+        author = "Ahmet Özlü",
+        title  = "Vehicle Detection, Tracking and Counting",
+        year   = "2017",
+        url    = "https://github.com/ahmetozlu/vehicle_counting_hog_svm"
+    }
 
 ## Author
 Ahmet Özlü

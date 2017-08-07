@@ -63,7 +63,7 @@ For Linux and Mac users, a CMakefile is provided to compile the source code.
 
 - Check out the latest project source code and compile it:
 
-      ~/git clone --recursive https://github.com/andrewssobral/vehicle_counting_hog_svm.git
+      ~/git clone --recursive https://github.com/ahmetozlu/vehicle_counting_hog_svm.git
       ~/cd vehicle_counting_hog_svm
       ~/vehicle_counting_hog_svm/cd build
       ~/vehicle_counting_hog_svm/build/ cmake ..

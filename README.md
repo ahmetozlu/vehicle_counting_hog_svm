@@ -1,11 +1,15 @@
 # Vehicle Detection, Tracking and Counting
 This project focuses "Vehicle Detection" by [Support Vector Machine(SVM)](http://docs.opencv.org/2.4/doc/tutorials/ml/introduction_to_svm/introduction_to_svm.html) with [Histogram Oriented Gradients(HOG)](http://www.learnopencv.com/histogram-of-oriented-gradients/) features. OpenCV library ([version 3.0](http://opencv.org/opencv-3-0.html)) was used for implementation. 
 
+**Test Case 1**
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/30512919-72a57046-9b02-11e7-8ca8-c3e4bd993497.gif">
 </p>
 
 This project has vehicle counting system, the accuray is approximately 90%. Developing of the accuracy is in progress.
+
+**Test Case 2**
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/30512835-aa0eb3fa-9b00-11e7-9c49-36a18d70b76c.gif">
@@ -22,13 +26,6 @@ In the HOG feature descriptor, the distribution ( histograms ) of directions of 
 
 ## Project Demo
 - The demo is available on Youtube: https://www.youtube.com/watch?v=itmV7druy9Y&feature=youtu.be
-- The screenshots:
-
-    **Test Case 1:**
-    ![screenshot_7](https://user-images.githubusercontent.com/22610163/29001171-19492cec-7a8a-11e7-81ea-db70cb6804d5.jpg)
-    
-    **Test Case 2:**
-    ![screenshot_8](https://user-images.githubusercontent.com/22610163/29001176-389344ac-7a8a-11e7-9bdb-a76282e2eec3.jpg)
     
 ## Installation
 **For Windows Users**

@@ -7,7 +7,7 @@ This project focuses "Vehicle Detection" by [Support Vector Machine(SVM)](http:/
   <img src="https://user-images.githubusercontent.com/22610163/30512919-72a57046-9b02-11e7-8ca8-c3e4bd993497.gif">
 </p>
 
-This project has vehicle counting system, the accuray is approximately 90%. Developing of the accuracy is in progress.
+This project has vehicle counting system, the accuray is approximately 85%. Developing of the accuracy is in progress.
 
 **Test Case 2**
 

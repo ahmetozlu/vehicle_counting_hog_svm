@@ -1,6 +1,18 @@
 # Vehicle Detection, Tracking and Counting
 This project focuses "Vehicle Detection" by [Support Vector Machine(SVM)](http://docs.opencv.org/2.4/doc/tutorials/ml/introduction_to_svm/introduction_to_svm.html) with [Histogram Oriented Gradients(HOG)](http://www.learnopencv.com/histogram-of-oriented-gradients/) features. OpenCV library ([version 3.0](http://opencv.org/opencv-3-0.html)) was used for implementation. 
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/30512919-72a57046-9b02-11e7-8ca8-c3e4bd993497.gif">
+</p>
+
+This project has vehicle counting system, the accuray is approximately 90%. Developing of the accuracy is in progress.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/30512835-aa0eb3fa-9b00-11e7-9c49-36a18d70b76c.gif">
+</p>
+
+[Click](https://github.com/ahmetozlu/vehicle_counting) to see another vehicle counting project which is developed with "Blob Detection" method.
+
 ## Theory
 #### What is SVM? 
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples.

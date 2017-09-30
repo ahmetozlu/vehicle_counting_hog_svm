@@ -7,7 +7,7 @@ This project focuses "Vehicle Detection" by [Support Vector Machine(SVM)](http:/
   <img src="https://user-images.githubusercontent.com/22610163/30512919-72a57046-9b02-11e7-8ca8-c3e4bd993497.gif">
 </p>
 
-Moreover, this project has vehicle counting system, the accuray is approximately 80%. Developing of the accuracy is in progress and it will be published soon.
+Moreover, this project has vehicle counting system, the accuracy is approximately 80% for now but developing of the accuracy is still in progress and this repository will be updated with higher accuracy rate soon.
 
 [Click](https://github.com/ahmetozlu/vehicle_counting) to see another vehicle counting project which is developed with "Blob Detection" method.
 
